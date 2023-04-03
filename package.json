@@ -1,10 +1,19 @@
 {
   "name": "clean-common-lib",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Clean Architecture Common Library",
-  "main": "dist/index",
+  "homepage": "https://github.com/dianderas/clean-common-lib",
+  "files": [
+    "dist"
+  ],
+  "main": "./lib/main.js",
+  "types": "./lib/main.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dianderas/clean-common-lib"
+  },
   "scripts": {
-    "build": "rimraf ./dist && tsc"
+    "build": "rimraf ./lib && tsc"
   },
   "keywords": [],
   "author": "",
