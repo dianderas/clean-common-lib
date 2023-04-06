@@ -32,7 +32,7 @@ export class DomainEvents {
   }
 
   public static register(
-    callback: (event: IDomainEvent) => void,
+    callback: (event: IDomainEvent) => void | Promise<void>,
     eventClassName: string
   ): void {
     if (!this.handlersMap.hasOwnProperty(eventClassName)) {

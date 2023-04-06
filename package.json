@@ -1,13 +1,13 @@
 {
   "name": "clean-common-lib",
-  "version": "1.0.4",
+  "version": "1.0.7",
   "description": "Clean Architecture Common Library",
   "homepage": "https://github.com/dianderas/clean-common-lib",
   "files": [
-    "dist"
+    "lib"
   ],
-  "main": "./lib/main.js",
-  "types": "./lib/main.d.ts",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/dianderas/clean-common-lib"
